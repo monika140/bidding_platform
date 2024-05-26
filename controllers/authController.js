@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const prisma = require("../DB/dbconfig");
-const userValidator = require("../validations/userValidations");
+const userValidator = require("../validations/authValidation");
 const { createAccessToken } = require("../util/secretToken");
 
 //Registration of user
